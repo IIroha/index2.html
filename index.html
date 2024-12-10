@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Customer Information Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 2px solid #004B9B;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            max-width: 200px;
+            margin-right : 500px;
+        }
+
+        .section-title {
+            background-color: #004B9B;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .field {
+            margin-bottom: 15px;
+        }
+
+        .field label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .input, .select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .checkbox-group label {
+            flex: 1 1 48%;
+            margin-bottom: 5px;
+        }
+
+        .small-fields {
+            display: flex;
+            gap: 10px;
+        }
+
+        .small-fields .field {
+            flex: 1;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@   5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="form-container">
+        <div class="header">
+            <img src="C:\Users\ranfa.sarin\OneDrive - sbilhbank.com.kh\Pictures\sbilogo.png" alt="Bank Logo">
+            <h1>Corporate Customer Information Form</h1>
+        </div>
+
+        <div class="section-title">I. Corporate Information</div>
+
+        <div class="field">
+            <label for="company-name-kh">Company Name in Khmer</label>
+            <input type="text" id="company-name-kh" class="input">
+        </div>
+
+        <div class="field">
+            <label for="company-name-latin">Company Name in Latin</label>
+            <input type="text" id="company-name-latin" class="input">
+        </div>
+
+        <div class="field">
+            <label for="registration-no">Registration No.</label>
+            <input type="text" id="registration-no" class="input">
+        </div>
+
+        <div class="field">
+            <label for="date-of-registration">Date of Registration</label>
+            <input type="date" id="date-of-registration" class="input">
+        </div>
+
+        <div class="field">
+            <label for="source-of-income">Source of Income</label>
+            <input type="text" id="source-of-income" class="input">
+        </div>
+
+        <div class="field">
+            <label>Type of Company or Organization</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Sole Proprietorship</label>
+                <label><input type="checkbox"> Private Limited Company</label>
+                <label><input type="checkbox"> Public Limited Company</label>
+                <label><input type="checkbox"> NGO/Association</label>
+                <label><input type="checkbox"> Public Institution</label>
+                <label><input type="checkbox"> Foreign Company Branch</label>
+                <label><input type="checkbox"> Law Firm</label>
+                <label><input type="checkbox"> Other</label>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Main Business Activity</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Commercial Bank</label>
+                <label><input type="checkbox"> Insurance Company</label>
+                <label><input type="checkbox"> Securities Company</label>
+                <label><input type="checkbox"> Specialized Bank</label>
+                <label><input type="checkbox"> Real Estate Corporation</label>
+                <label><input type="checkbox"> Other</label>
+            </div>
+        </div>
+
+        <div class="section-title">Registered Address</div>
+
+        <div class="field">
+            <label for="house-no">House No./Building No.</label>
+            <input type="text" id="house-no" class="input">
+        </div>
+
+        <div class="field">
+            <label for="street-name">Street Name</label>
+            <input type="text" id="street-name" class="input">
+        </div>
+
+        <div class="field">
+            <label for="contact">Contact Number</label>
+            <input type="text" id="contact" class="input">
+        </div>
+
+        <div class="footer">
+            <p>Page 1 of 4</p>
+        </div>
+    </div>
+</body>
+</html>
